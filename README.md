@@ -2,7 +2,7 @@
 
 A multi-task learning architecture for e-commerce product attribute prediction using DistilBERT embeddings, GECE hybrid classifier, and hierarchical constraint enforcement.
 
-## 🎯 Project Overview
+##  Project Overview
 
 This project addresses the challenge of predicting structured product attributes (hierarchical categories L0-L4 and brand) from unstructured product text in e-commerce catalogs. We developed and compared three distinct approaches:
 
@@ -10,7 +10,7 @@ This project addresses the challenge of predicting structured product attributes
 2. **GECE Classifier** - Global-local hybrid architecture combining global supervision with local hierarchical constraints
 3. **Hierarchical Masked Inference** - Multi-task flat classification with cascaded constraint application
 
-## 🏆 Key Results
+##  Key Results
 
 | Approach | Brand Acc | L0 Acc | L1 Acc | L2 Acc | L3 Acc | L4 Acc | Training Time |
 |----------|-----------|--------|--------|--------|--------|--------|---------------|
@@ -19,12 +19,12 @@ This project addresses the challenge of predicting structured product attributes
 | Masked Inference | 95.50% | 92.04% | 87.06% | 83.44% | 79.93% | 84.92% | **20 min** |
 
 ### Performance Highlights
-- ✅ **98% brand accuracy** with Hierarchical BERT
-- ✅ **88-91% hierarchical accuracy** across multiple classification levels
-- ✅ **45× inference speedup** through strategic embedding layer freezing
-- ✅ **Constraint-based prediction** preventing logically impossible taxonomy paths
+-  **98% brand accuracy** with Hierarchical BERT
+-  **88-91% hierarchical accuracy** across multiple classification levels
+-  **45× inference speedup** through strategic embedding layer freezing
+-  **Constraint-based prediction** preventing logically impossible taxonomy paths
 
-## 🔧 Technical Architecture
+##  Technical Architecture
 
 ### GECE (Global-local Enhanced Classification with taxonomy Enforcement)
 
@@ -58,7 +58,7 @@ Input → BERT-tiny → [CLS] Token → Multi-Head Classification
 - **Store-brand constraint** mappings
 - **End-to-end training** with multi-task loss optimization
 
-## 📊 Dataset
+##  Dataset
 
 **IndoML Datathon 2024** - E-commerce Product Attribute Prediction
 
@@ -68,7 +68,7 @@ Input → BERT-tiny → [CLS] Token → Multi-Head Classification
 - **Brands**: 4,656 unique brands
 - **Input**: Product titles + store information
 
-## 🛠️ Implementation Details
+##  Implementation Details
 
 ### Hierarchical BERT
 - **Model**: BERT-tiny (4 layers, 128 hidden size, 2 attention heads)
@@ -85,7 +85,7 @@ Input → BERT-tiny → [CLS] Token → Multi-Head Classification
 - **Optimizer**: Cross-entropy loss per head
 - **Efficiency**: Precomputed embeddings eliminate transformer forward passes
 
-## 🚀 Key Innovations
+##  Key Innovations
 
 1. **Strategic Embedding Freezing**: 45× speedup while maintaining 88-91% accuracy
 2. **Hybrid Global-Local Supervision**: Simultaneously optimizes individual attributes and full hierarchical paths
@@ -93,7 +93,7 @@ Input → BERT-tiny → [CLS] Token → Multi-Head Classification
 4. **Multi-Head Architecture**: Parallel predictions across all hierarchy levels
 5. **Constraint-Based Prediction**: Prevents logically impossible category combinations
 
-## 📈 Performance Analysis
+##  Performance Analysis
 
 ### Training Efficiency Trade-offs
 - **Hierarchical BERT**: Highest accuracy (88-98%) but 15-hour training
@@ -105,7 +105,7 @@ Input → BERT-tiny → [CLS] Token → Multi-Head Classification
 - **GECE**: Best for rapid prototyping and global path understanding
 - **Masked Inference**: Best balance of performance and modularity
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```
 ├── BERT_nlp_final_project.ipynb    # Main implementation notebook
@@ -116,7 +116,7 @@ Input → BERT-tiny → [CLS] Token → Multi-Head Classification
 └── .gitignore                       # Git ignore rules
 ```
 
-## 🔬 Methodology
+##  Methodology
 
 ### Training Phase
 1. **Feature Extraction**: BERT/DistilBERT processes product text
@@ -128,17 +128,17 @@ Input → BERT-tiny → [CLS] Token → Multi-Head Classification
 2. **Constraint Masking**: Parent predictions restrict child candidate sets
 3. **Store Constraints**: Store-specific brand availability filtering
 
-## 📚 References
+##  References
 
 - Wehrmann et al. (2018) - Hierarchical Multi-Label Classification Networks
 - Silla & Freitas (2011) - Local Classifier per Node/Level paradigm
 - Cesa-Bianchi et al. (2006) - Training-time hierarchical constraint analysis
 
-## 🎓 Academic Context
+##  Academic Context
 
 This project was completed as part of an NLP course (November 2025), focusing on practical applications of transformer-based architectures for structured prediction in e-commerce domains.
 
-## 📝 Citation
+##  Citation
 
 If you use this work, please cite:
 ```
@@ -149,11 +149,11 @@ If you use this work, please cite:
 }
 ```
 
-## 🤝 Contributing
+##  Contributing
 
 This is an academic project. For questions or discussions, please open an issue.
 
-## 📄 License
+##  License
 
 This project is available for educational and research purposes.
 
