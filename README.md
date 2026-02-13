@@ -138,25 +138,7 @@ Input → BERT-tiny → [CLS] Token → Multi-Head Classification
 
 This project was completed as part of an NLP course (November 2025), focusing on practical applications of transformer-based architectures for structured prediction in e-commerce domains.
 
-##  Citation
 
-If you use this work, please cite:
-```
-@project{hierarchical-product-classification,
-  title={Hierarchical Product Classification with BERT and Constraint Enforcement},
-  year={2025},
-  note={Multi-task learning architecture for e-commerce attribute prediction}
-}
 ```
 
-##  Contributing
 
-This is an academic project. For questions or discussions, please open an issue.
-
-##  License
-
-This project is available for educational and research purposes.
-
----
-
-**Note**: This project demonstrates the effectiveness of hierarchical classification approaches for real-world e-commerce applications, with clear trade-offs between accuracy and computational efficiency.
