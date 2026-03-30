@@ -1,6 +1,6 @@
-# 🚀 TERMINAL COMMANDS TO PUSH YOUR PROJECT TO GITHUB
+#  TERMINAL COMMANDS TO PUSH YOUR PROJECT TO GITHUB
 
-## OPTION 1: AUTOMATED (EASIEST) ✨
+## OPTION 1: AUTOMATED (EASIEST) 
 
 Run this single command to automate everything:
 
@@ -103,7 +103,7 @@ git push -u origin main
 
 ---
 
-## 🔑 CREATING PERSONAL ACCESS TOKEN (For HTTPS)
+## CREATING PERSONAL ACCESS TOKEN (For HTTPS)
 
 1. Go to: https://github.com/settings/tokens
 2. Click **"Generate new token"** → **"Generate new token (classic)"**
@@ -116,7 +116,7 @@ git push -u origin main
 
 ---
 
-## ✅ VERIFICATION
+## VERIFICATION
 
 After pushing successfully, visit:
 ```
@@ -146,7 +146,7 @@ git push
 
 ---
 
-## 🆘 TROUBLESHOOTING
+## TROUBLESHOOTING
 
 ### Error: "Authentication failed"
 **Solution:** Use Personal Access Token instead of password
@@ -174,7 +174,7 @@ git remote set-url origin https://github.com/YOUR_USERNAME/hierarchical-product-
 
 ---
 
-## 📋 RECOMMENDED: After Pushing to GitHub
+## RECOMMENDED: After Pushing to GitHub
 
 1. **Add Topics/Tags** on GitHub:
    - `machine-learning`
@@ -200,7 +200,7 @@ git remote set-url origin https://github.com/YOUR_USERNAME/hierarchical-product-
 
 ---
 
-## 🎯 WHAT'S INCLUDED IN YOUR REPOSITORY
+##  WHAT'S INCLUDED IN YOUR REPOSITORY
 
 ```
 hierarchical-product-classification/
@@ -217,14 +217,14 @@ hierarchical-product-classification/
 
 ---
 
-## 💡 TIPS FOR SUCCESS
+##  TIPS FOR SUCCESS
 
 ✓ **Use clear commit messages** - Describe what changed and why
 ✓ **Commit frequently** - Small, logical commits are better
 ✓ **Pull before push** - `git pull` before `git push` to avoid conflicts
 ✓ **Check .gitignore** - Don't commit large data files or models
-✓ **Write good README** - Already done for you! ✅
+✓ **Write good README** - Already done for you! 
 
 ---
 
-**Ready to go? Choose OPTION 1 (automated) or OPTION 2 (manual) above and start pushing!** 🚀
+**Ready to go? Choose OPTION 1 (automated) or OPTION 2 (manual) above and start pushing!** 
